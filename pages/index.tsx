@@ -7,14 +7,14 @@ const websiteurl = "https://ogdev-pearl.vercel.app/";
 const en = {
   title: "Sign up with this code to get trading fee discount | XREX Exchange",
   description:
-    "XREX exchange is operated by an internationally-recognized secur",
+    "XREX exchange is operated by an internationally-recognized security team with",
   image: `${websiteurl}discount0.png`,
 };
 
 const zh = {
   title: "XREX 好友推薦，立享交易折扣｜XREX 交易所",
   description:
-    "XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規",
+    "XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規的加密貨幣交易體驗",
   image: `${websiteurl}discount0zh_TW.png`,
 };
 
@@ -42,7 +42,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       props: {
         title: en.title,
         description: en.description,
-        image: en.im,
+        image: en.image,
       },
     };
   }
