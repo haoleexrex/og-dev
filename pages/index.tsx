@@ -19,24 +19,33 @@ const zh = {
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const { query, req } = context;
-  const acceptLanguageHeader = req.headers["accept-language"] as string;
-  const afterParser = parser.parse(acceptLanguageHeader);
-  console.log("afterParser", afterParser[0]);
-  const lang = afterParser[0];
-  let langObject = en;
+  try {
+    const { query, req } = context;
+    const acceptLanguageHeader = req.headers["accept-language"] as string;
+    const afterParser = parser.parse(acceptLanguageHeader);
+    console.log("afterParser", afterParser[0]);
+    const lang = afterParser[0];
+    let langObject = en;
 
-  if (lang.code.includes("zh")) {
-    langObject = zh;
+    if (lang.code.includes("zh")) {
+      langObject = zh;
+    }
+    return {
+      props: {
+        title: langObject.title,
+        description: langObject.description,
+        image: langObject.image,
+      },
+    };
+  } catch (err) {
+    return {
+      props: {
+        title: "",
+        description: "",
+        image: "",
+      },
+    };
   }
-
-  return {
-    props: {
-      title: langObject.title,
-      description: langObject.description,
-      image: langObject.image,
-    },
-  };
 };
 
 interface Props {
