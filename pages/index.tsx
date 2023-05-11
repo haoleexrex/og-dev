@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 import parser from "accept-language-parser";
 import Head from "next/head";
 
-const websiteurl = "https://ogdev-pearl.vercel.app";
+const websiteurl = "https://ogdev-4sxfoex96-haoleexrex.vercel.app";
 
 const en = {
   title: "Sign up with this code to get trading fee discount | XREX Exchange",
@@ -69,61 +69,25 @@ export default function Home({
     <>
       <Head>
         {/* <!-- COMMON TAGS --> */}
-        <title data-shuvi-head="true">加密貨幣交易所推薦計畫｜幣安官方</title>
+        <title data-shuvi-head="true">{title}</title>
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="bookmark" href="favicon.ico" />
         <meta charSet="utf-8" />
-        <meta
-          name="keywords"
-          content="幣安推薦、加密貨幣交易所推薦"
-          data-shuvi-head="true"
-        />
+        <meta name="keywords" content={title} data-shuvi-head="true" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="description"
-          content="官方推出邀請朋友的方式。您向 https://binance.com/Exchange 推薦的每位朋友都能讓您享有高達 40% 的佣金。邀請人數沒有上限！"
-          data-shuvi-head="true"
-        />
-        <meta
-          property="og:url"
-          content="https://www.binance.com/zh-TC/activity/referral-entry/CPA?ref=CPA_005R34L6NF"
-          data-shuvi-head="true"
-        />
+        <meta name="description" content={description} data-shuvi-head="true" />
+        <meta property="og:url" content={websiteurl} data-shuvi-head="true" />
         <meta property="og:type" content="website" data-shuvi-head="true" />
-        <meta
-          property="og:title"
-          content="加密貨幣交易所推薦計畫｜幣安官方"
-          data-shuvi-head="true"
-        />
-        <meta
-          property="og:site_name"
-          content="Binance"
-          data-shuvi-head="true"
-        />
-        <meta
-          property="og:image"
-          content="https://public.bnbstatic.com/images/referral-lite/cpa/zh-TW-ogImage.png"
-          data-shuvi-head="true"
-        />
+        <meta property="og:title" content={title} data-shuvi-head="true" />
+        <meta property="og:site_name" content="Xrex" data-shuvi-head="true" />
+        <meta property="og:image" content={image} data-shuvi-head="true" />
         {/* Twitter */}
-        <meta
-          property="twitter:title"
-          content="加密貨幣交易所推薦計畫｜幣安官方"
-          data-shuvi-head="true"
-        />
-        <meta
-          property="twitter:site"
-          content="Binance"
-          data-shuvi-head="true"
-        />
-        <meta
-          property="twitter:image"
-          content="https://public.bnbstatic.com/images/referral-lite/cpa/zh-TW-ogImage.png"
-          data-shuvi-head="true"
-        />
+        <meta property="twitter:title" content={title} data-shuvi-head="true" />
+        <meta property="twitter:site" content="Xrex" data-shuvi-head="true" />
+        <meta property="twitter:image" content={image} data-shuvi-head="true" />
         <meta
           property="twitter:image:src"
-          content="https://public.bnbstatic.com/images/referral-lite/cpa/zh-TW-ogImage.png"
+          content={image}
           data-shuvi-head="true"
         />
         <meta
@@ -131,11 +95,7 @@ export default function Home({
           content="summary_large_image"
           data-shuvi-head="true"
         />
-        <link
-          rel="canonical"
-          href="https://www.binance.com/zh-TC/activity/referral-entry/CPA"
-          data-shuvi-head="true"
-        />
+        <link rel="canonical" href={websiteurl} data-shuvi-head="true" />
 
         {/* Twitter */}
       </Head>
