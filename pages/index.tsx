@@ -69,7 +69,7 @@ export default function Home({
     <>
       <Head>
         {/* <!-- COMMON TAGS --> */}
-        <title data-shuvi-head="true">{"Sign up with this code to get trading fee discount | XREX Exchange"}</title>
+        <title data-shuvi-head="true">{title}</title>
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="bookmark" href="favicon.ico" />
         <meta charSet="utf-8" />
