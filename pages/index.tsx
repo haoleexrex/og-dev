@@ -2,20 +2,20 @@ import { GetServerSideProps } from "next";
 import parser from "accept-language-parser";
 import Head from "next/head";
 
-const websiteurl = "https://ogdev-4sxfoex96-haoleexrex.vercel.app";
+const websiteurl = "https://ogdev-pearl.vercel.app/";
 
 const en = {
   title: "Sign up with this code to get trading fee discount | XREX Exchange",
   description:
     "XREX exchange is operated by an internationally-recognized security team with 15+ years of experience. We provide the safest, cleanest and the most compliant trading environment. We offer smooth USD deposits and withdrawals in 120+ countries. Sign up with a referral code to get trading fee discount now!",
-  image: `${websiteurl}/discount0.png`,
+  image: `${websiteurl}discount0.png`,
 };
 
 const zh = {
   title: "XREX 好友推薦，立享交易折扣｜XREX 交易所",
   description:
     "XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規的加密貨幣交易體驗，美金存提款支援 120+ 個國家。現在就創建推薦碼邀請好友加入 XREX，分享交易手續費折扣！加入 XREX 俱樂部可以省更多交易手續費，揪好友一同加入 XREX 吧！",
-  image: `${websiteurl}/discount0zh_TW.png`,
+  image: `${websiteurl}discount0zh_TW.png`,
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
