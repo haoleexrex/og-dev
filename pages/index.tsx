@@ -40,9 +40,9 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   } catch (err) {
     return {
       props: {
-        title: "",
-        description: "",
-        image: "",
+        title: en.title,
+        description: en.description,
+        image: en.image,
       },
     };
   }
