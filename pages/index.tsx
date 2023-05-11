@@ -66,51 +66,26 @@ export default function Home({
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="bookmark" href="favicon.ico" />
 
-        {/* <!-- Search Engine --> */}
-        {/* <meta key="description" name="description" content={description} /> */}
-        <meta name="description" content={description} data-shuvi-head="true" />
-        <meta name="image" content={image} />
-        {/*  */}
-        <meta property="og:url" content={url} data-shuvi-head="true" />
-        <meta property="og:type" content="website" data-shuvi-head="true" />
-        <meta property="og:site_name" content={title} data-shuvi-head="true" />
-        <meta property="og:image" content={image} data-shuvi-head="true" />
-        {/* Twitter */}
-        <meta property="twitter:title" content={title} data-shuvi-head="true" />
-        <meta property="twitter:site" content={title} data-shuvi-head="true" />
-        <meta property="twitter:image" content={image} data-shuvi-head="true" />
-        <meta
-          property="twitter:image:src"
-          content={image}
-          data-shuvi-head="true"
-        />
-        {/* card */}
-        <meta property="twitter:card" content={image} data-shuvi-head="true" />
-        <link
-          rel="canonical"
-          href="https://shiabibi.vercel.app/og"
-          data-shuvi-head="true"
-        />
 
         {/* <!-- Schema.org for Google --> */}
-        {/* <meta itemProp="name" content={title} />
+        <meta itemProp="name" content={title} />
         <meta itemProp="description" content={description} />
-        <meta itemProp="image" content={image} /> */}
+        <meta itemProp="image" content={image} />
 
         {/* <!-- Twitter --> */}
-        {/* <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image:src" content={image} /> */}
+        <meta name="twitter:image:src" content={image} />
 
         {/* <!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
-        {/* <meta property="og:url" content={url} />
+        <meta property="og:url" content={url} />
         <meta property="og:image" content={image} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:locale" content={locale} /> */}
+        <meta property="og:locale" content={locale} />
 
         <meta key="robots" name="robots" content={"index,follow"} />
         <meta key="googlebot" name="googlebot" content={"index,follow"}></meta>
