@@ -68,36 +68,121 @@ export default function Home({
   return (
     <>
       <Head>
-        {/* <!-- COMMON TAGS --> */}
-        <title data-shuvi-head="true">{title}</title>
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="bookmark" href="favicon.ico" />
-        <meta charSet="utf-8" />
-        <meta name="keywords" content={title} data-shuvi-head="true" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content={description} data-shuvi-head="true" />
-        <meta property="og:url" content={websiteurl} data-shuvi-head="true" />
-        <meta property="og:type" content="website" data-shuvi-head="true" />
-        <meta property="og:title" content={title} data-shuvi-head="true" />
-        <meta property="og:site_name" content="Xrex" data-shuvi-head="true" />
-        <meta property="og:image" content={image} data-shuvi-head="true" />
-        {/* Twitter */}
-        <meta property="twitter:title" content={title} data-shuvi-head="true" />
-        <meta property="twitter:site" content="Xrex" data-shuvi-head="true" />
-        <meta property="twitter:image" content={image} data-shuvi-head="true" />
-        <meta
-          property="twitter:image:src"
-          content={image}
-          data-shuvi-head="true"
-        />
-        <meta
-          property="twitter:card"
-          content="summary_large_image"
-          data-shuvi-head="true"
-        />
-        <link rel="canonical" href={websiteurl} data-shuvi-head="true" />
-
-        {/* Twitter */}
+        <head>
+          <title>XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所</title>
+          <meta charset="utf-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <link rel="shortcut icon" href="favicon.ico" />
+          <link rel="bookmark" href="favicon.ico" />
+          <meta
+            name="description"
+            content="XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規的加密貨幣交易體驗，美金存提款支援 120+ 個國家。現在就創建推薦碼邀請好友加入 XREX，分享交易手續費折扣！加入 XREX 俱樂部可以省更多交易手續費，揪好友一同加入 XREX 吧！"
+          />
+          <meta
+            name="image"
+            content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          />
+          <meta
+            itemprop="name"
+            content="XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所"
+          />
+          <meta
+            itemprop="description"
+            content="XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規的加密貨幣交易體驗，美金存提款支援 120+ 個國家。現在就創建推薦碼邀請好友加入 XREX，分享交易手續費折扣！加入 XREX 俱樂部可以省更多交易手續費，揪好友一同加入 XREX 吧！"
+          />
+          <meta
+            itemprop="image"
+            content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          />
+          <meta
+            property="twitter:title"
+            content="XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所"
+          />
+          <meta property="twitter:site" content="Xrex" />
+          <meta
+            property="twitter:image"
+            content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          />
+          <meta
+            property="twitter:image:src"
+            content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="og:url" content="https://exchange.xrex.io" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所"
+          />
+          <meta property="og:site_name" content="Xrex" />
+          <meta
+            property="og:image"
+            content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          />
+          <meta property="og:locale" content="zh_TW" />
+          <meta name="robots" content="index,follow" />
+          <meta name="googlebot" content="index,follow" />
+          <meta name="version" />
+          <meta name="next-head-count" content="24" />
+          <meta name="keywords" content="XREX, Exchange, bitcoin, BTC, USDT" />
+          <meta name="theme-color" content="#1976d2" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin=""
+          />
+          <link
+            rel="preload"
+            href="/referrals/_next/static/css/8bdd1daf8a535efc.css"
+            as="style"
+          />
+          <link
+            rel="stylesheet"
+            href="/referrals/_next/static/css/8bdd1daf8a535efc.css"
+            data-n-g=""
+          />
+          <noscript data-n-css=""></noscript>
+          <script
+            defer=""
+            nomodule=""
+            src="/referrals/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/webpack-7983e0df8e5ef095.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/framework-2c79e2a64abdb08b.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/main-3e5f60bec370f517.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/pages/_app-1b385ef0c2fe020c.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/532-e1a728d65dba3702.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/chunks/pages/%5Bcode%5D-433a6537e802938e.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/a_cd4fOnmRP9t-UYC757n/_buildManifest.js"
+            defer=""
+          ></script>
+          <script
+            src="/referrals/_next/static/a_cd4fOnmRP9t-UYC757n/_ssgManifest.js"
+            defer=""
+          ></script>
+        </head>
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         OG Research - og
