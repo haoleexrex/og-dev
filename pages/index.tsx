@@ -78,11 +78,11 @@ export default function Home({
         />
         <meta
           name="image"
-          content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          content="/discount0.png"
         />
         <meta content="XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所" />
         <meta content="XREX 交易所是由擁有 15 年以上經驗的資安團隊營運，提供最安全、最乾淨也最合規的加密貨幣交易體驗，美金存提款支援 120+ 個國家。現在就創建推薦碼邀請好友加入 XREX，分享交易手續費折扣！加入 XREX 俱樂部可以省更多交易手續費，揪好友一同加入 XREX 吧！" />
-        <meta content="https://exchange.xrex.io/referrals/assets/images/discount0.png" />
+        <meta content="/discount0.png" />
         <meta
           property="twitter:title"
           content="XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所"
@@ -90,11 +90,11 @@ export default function Home({
         <meta property="twitter:site" content="Xrex" />
         <meta
           property="twitter:image"
-          content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          content="/discount0.png"
         />
         <meta
           property="twitter:image:src"
-          content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          content="/discount0.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://exchange.xrex.io" />
@@ -106,7 +106,7 @@ export default function Home({
         <meta property="og:site_name" content="Xrex" />
         <meta
           property="og:image"
-          content="https://exchange.xrex.io/referrals/assets/images/discount0.png"
+          content="/discount0.png"
         />
         <meta property="og:locale" content="zh_TW" />
         <meta name="robots" content="index,follow" />
