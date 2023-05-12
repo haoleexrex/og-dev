@@ -69,7 +69,6 @@ export default function Home({
     <>
       <Head>
         <title>XREX 好友推薦，立享 20% 交易折扣｜XREX 交易所</title>
-        <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="bookmark" href="favicon.ico" />
